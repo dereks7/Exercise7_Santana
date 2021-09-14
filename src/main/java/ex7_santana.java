@@ -21,8 +21,9 @@ public class ex7_santana
         double met1 = Math.sqrt(m1);
         double m2 = (Math.pow(n2,2)) * 0.09290304;
         double met2 = Math.sqrt(m2);
+        double area = (n1*n2);
         System.out.println( "You entered dimensions of "+ n1 + " feet by " + n2 +" feet.");
-        System.out.println( "The area is\n"+ (n1*n2) + " square feet");
+        System.out.println( "The area is\n"+ area + " square feet");
         double meter = (sqft*sqft) * 0.09290304;
         double square_meters =(met1*met2);
         System.out.println(square_meters + " square meters");
